@@ -58,6 +58,15 @@ source $ZSH/oh-my-zsh.sh
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
+export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/aria2/bin:/usr/local/git/bin"
+# export MANPATH="/usr/local/man:$MANPATH"
+
+# Setting PATH for Python 2.7
+# The orginal version is saved in .bash_profile.pysave
+PATH="/Library/Frameworks/Python.framework/Versions/2.7/bin:${PATH}"
+PATH="/usr/local/mysql/bin:${PATH}"
+PATH="/usr/local:${PATH}"
+export PATH
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8

@@ -7,3 +7,6 @@ ln -s ~/Documents/dotfiles/aliases.zsh ~/.oh-my-zsh/custom/aliases.zsh
 
 # zshenv
 # ln -s ~/Documents/dotfiles/zshenv ~/.zshenv
+
+# vscode
+ln -s ~/Documents/dotfiles/vscode/settings.json /Users/xiangyuc/Library/'Application Support'/Code/User/settings.json
